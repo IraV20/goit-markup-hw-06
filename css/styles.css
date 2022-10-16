@@ -742,12 +742,14 @@ address {
   resize: none;
 }
 
+.accept{
+  margin-bottom: 30px;
+}
+
 .accept label{
   display: flex;
   justify-content: center;
   align-items: center;
-
-  margin-bottom: 30px;
  
 }
 
@@ -780,14 +782,17 @@ address {
   display: block;
 }
 
+.form-button{
+  display: flex;
+  justify-content: center;
+}
 .modal-form button{
+  /* margin: 0 auto; перше, що спрбувала, але не спрацьовує */
   padding: 10px 52px;
   min-width: 200px;
   cursor: pointer;
-  margin-left: 124px;
   
   font-family: inherit;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
