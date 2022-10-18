@@ -590,7 +590,15 @@ address {
 
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--footer-bcg-color);
+  
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-form input:hover ,
+.footer-form input:focus {
+  border: 1px solid var(--accent-color);
+}  
 
 .footer-button{
   position: relative;
@@ -740,7 +748,15 @@ address {
   border-radius: 4px;
   outline: none;
   resize: none;
+
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form-element textarea:hover ,
+.form-element textarea:focus {
+  border: 1px solid var(--accent-color);
+}  
 
 .accept{
   margin-bottom: 30px;
